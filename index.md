@@ -20,7 +20,8 @@ Step 3: Trying Some Commands
 I tried multiple commands with this terminal. I tried the ls -lat command:
 ![Screenshot (21)](https://user-images.githubusercontent.com/130017333/231027109-ce955583-76cf-47a5-ab03-1153094ec2ab.png)
 along with the pwd command and the cat command:
-![Screenshot (16)](https://user-images.githubusercontent.com/130017333/230798158-ac8c1eaf-369e-4eab-b2f7-7e4a522c956e.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/130017333/231031452-c89c7097-5d10-47b6-9ab0-aba2fcc1dcfd.png)
+
 
 
 
