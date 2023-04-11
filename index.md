@@ -12,7 +12,11 @@ In order to connect my terminal to a computer in the CSE basement, the first thi
 ![Screenshot (9)](https://user-images.githubusercontent.com/130017333/230795102-eeba056a-e7c6-4daa-8e1b-f6f59f1e268d.png)
 After I did this, my updated new terminal looked like this:
 ![Screenshot (10)](https://user-images.githubusercontent.com/130017333/230795186-8015891d-5106-44ff-a0a0-746aaee5c05f.png)
-Before typing anything in this terminal, I first found out what my CSE 15L course-specific username is. 
+Before typing anything in this terminal, I first found out what my CSE 15L course-specific username is. To do this, I clicked on this url https://sdacs.ucsd.edu/~icc/index.php and wound up here:
+![Screenshot (23)](https://user-images.githubusercontent.com/130017333/231033714-ad2a50bc-48aa-472e-8389-a06db80b1c1f.png)
+When I was here, I clicked the 'submit' button and wound up on this page, where I found out my CSE 15L username:
+![Screenshot (24)](https://user-images.githubusercontent.com/130017333/231034188-d3bf031e-5b45-4f40-b57f-622a4c8a3e10.png)
+On this page, notice where it says 'Global Password Change Tool.' I clicked on this and reset my password. I was then ready to type into the terminal.
 In this new terminal, I typed the ssh command (which is used to connect to remote servers), followed by my course-specific username cs15lsp23sf plus @ieng6.ucsd.edu:
 ![Screenshot (19)](https://user-images.githubusercontent.com/130017333/231026383-6fb8cae0-c868-4af2-b607-de420bbcbcf5.png)
 It now asks for my password. After I type it in, the following appears:
