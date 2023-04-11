@@ -18,7 +18,7 @@ With this, my terminal is now connected to a computer in the CSE basement.
 
 Step 3: Trying Some Commands
 I tried multiple commands with this terminal. I tried the ls -lat command:
-![Screenshot (15)](https://user-images.githubusercontent.com/130017333/230798100-acf47549-5406-47f4-a811-10612be0b75f.png)
+![Screenshot (21)](https://user-images.githubusercontent.com/130017333/231027109-ce955583-76cf-47a5-ab03-1153094ec2ab.png)
 along with the pwd command and the cat command:
 ![Screenshot (16)](https://user-images.githubusercontent.com/130017333/230798158-ac8c1eaf-369e-4eab-b2f7-7e4a522c956e.png)
 
