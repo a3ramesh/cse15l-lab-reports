@@ -35,6 +35,8 @@ The reason this didn't work is that hello.txt file doesn't belong to the directo
 ![Screenshot (29)](https://user-images.githubusercontent.com/130017333/231045559-fff8c6a5-d130-4d7e-9b4d-cb56902f4e16.png)
 I make use of a relative path from the /home/linux/ directory in order to access the hello.txt file, and it works in this case.
 
+These are all the steps I took for my first usage of the terminal in CSE 15L.
+
 
 
 
