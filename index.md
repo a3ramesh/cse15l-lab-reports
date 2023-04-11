@@ -27,7 +27,11 @@ Step 3: Trying Some Commands
 
 I tried multiple commands with this terminal. I tried the the pwd command (stands for "print working directory" and prints the directory that my terminal is currently in) and the cat command (stands for "concatenate" and prints the contents of the file(s) given by the specified paths; in this case the "hello.txt" file):
 ![Screenshot (26)](https://user-images.githubusercontent.com/130017333/231043197-0c960679-b3a1-4a65-bc8c-fd651baae01a.png)
-I also tried the cd command (this changes the directory that my terminal is currently in). After doing this, I tried using the same cat command to print the contents of the hello.txt file. But it didn't work:
+I also tried the cd command (this changes the directory that my terminal is currently in). 
+![Screenshot (27)](https://user-images.githubusercontent.com/130017333/231043724-ea440965-dfba-4985-80c9-125758dba0ff.png)
+After doing this, I tried using the same cat command to print the contents of the hello.txt file. But it didn't work:
+![Screenshot (28)](https://user-images.githubusercontent.com/130017333/231043771-bd8bbc1f-0b23-4eb4-b424-11603c8ca425.png)
+The reason this didn't work is that hello.txt file doesn't belong to the directory my terminal is currently in. There is a way to access the hello.txt file that does not involve changing the terminal back to the directory it was before. This is by making use of file paths, as I do below: 
 
 
 
