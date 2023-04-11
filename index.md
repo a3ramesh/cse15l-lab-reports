@@ -12,7 +12,7 @@ In order to connect my terminal to a computer in the CSE basement, the first thi
 ![Screenshot (9)](https://user-images.githubusercontent.com/130017333/230795102-eeba056a-e7c6-4daa-8e1b-f6f59f1e268d.png)
 After I did this, my updated new terminal looked like this:
 ![Screenshot (10)](https://user-images.githubusercontent.com/130017333/230795186-8015891d-5106-44ff-a0a0-746aaee5c05f.png)
-In this new terminal, I typed the ssh command, followed by my username cs15lsp23sf plus @ieng6.ucsd.edu:
+In this new terminal, I typed the ssh command (which is used to connect to remote servers), followed by my username cs15lsp23sf plus @ieng6.ucsd.edu:
 ![Screenshot (19)](https://user-images.githubusercontent.com/130017333/231026383-6fb8cae0-c868-4af2-b607-de420bbcbcf5.png)
 It now asks for my password. After I type it in, the following appears:
 ![Screenshot (20)](https://user-images.githubusercontent.com/130017333/231026892-0953f961-a00b-49af-89d3-b4bc06bee791.png)
