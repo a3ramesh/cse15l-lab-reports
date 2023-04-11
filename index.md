@@ -25,10 +25,12 @@ With this, my terminal is now connected to a computer in the CSE basement.
 
 Step 3: Trying Some Commands
 
-I tried multiple commands with this terminal. I tried the ls -lat command:
-![Screenshot (21)](https://user-images.githubusercontent.com/130017333/231027109-ce955583-76cf-47a5-ab03-1153094ec2ab.png)
-along with the pwd command (stands for "print working directory" and prints the directory that my terminal is currently in) and the cat command (stands for "concatenate" and prints the contents of the file(s) given by the specified paths; in this case the "hello.txt" file):
-![Screenshot (22)](https://user-images.githubusercontent.com/130017333/231031452-c89c7097-5d10-47b6-9ab0-aba2fcc1dcfd.png)
+I tried multiple commands with this terminal. I tried the the pwd command (stands for "print working directory" and prints the directory that my terminal is currently in) and the cat command (stands for "concatenate" and prints the contents of the file(s) given by the specified paths; in this case the "hello.txt" file):
+![Screenshot (25)](https://user-images.githubusercontent.com/130017333/231041613-52a74507-8008-4a64-ac59-8d27c04c9ebc.png)
+I also tried the cd command (this changes the directory that my terminal is currently in). After doing this, I used the pwd command again to check that the directory my terminal is in has changed:
+
+
+
 
 
 
