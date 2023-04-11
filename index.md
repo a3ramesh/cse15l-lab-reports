@@ -32,6 +32,8 @@ I also tried the cd command (this changes the directory that my terminal is curr
 After doing this, I tried using the same cat command to print the contents of the hello.txt file. But it didn't work:
 ![Screenshot (28)](https://user-images.githubusercontent.com/130017333/231043771-bd8bbc1f-0b23-4eb4-b424-11603c8ca425.png)
 The reason this didn't work is that hello.txt file doesn't belong to the directory my terminal is currently in. There is a way to access the hello.txt file that does not involve changing the terminal back to the directory it was before. This is by making use of file paths, as I do below: 
+![Screenshot (29)](https://user-images.githubusercontent.com/130017333/231045559-fff8c6a5-d130-4d7e-9b4d-cb56902f4e16.png)
+I make use of a relative path from the /home/linux/ directory in order to access the hello.txt file, and it works in this case.
 
 
 
