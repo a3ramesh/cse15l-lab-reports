@@ -15,5 +15,27 @@ public void testSumEvensLength4() {
     assertEquals(EvensExample.sumEvenIndices(input1), 0);
   }
 ```
+I tested this input with JUnit, and the test passed.
+
+However, every other input appears to be a failure-inducing input. When this method takes in an array with one element, it should simply return that element. Here was the test:
+```
+public void testSumEvenLength5() {
+    int[] input1 = { 12};
+    assertEquals(EvensExample.sumEvenIndices(input1), 12);
+  }
+```
+However, when I ran this through JUnit, it led to an IndexOutOfBounds exception. This is called a symptom: when a program outputs what it is not supposed to.
+![Screenshot (38)](https://user-images.githubusercontent.com/130017333/233814906-a8171d3b-08b9-40b0-8a12-0dcb9115e629.png)
+
+For another input, I tested an array with four elements.
+```
+public void testSumEvenLength6() {
+    int[] input1 = { 12, 13, 7, 8};
+    assertEquals(EvensExample.sumEvenIndices(input1), 19);
+  }
+```
+When I ran this through JUnit, it did not lead to an exception. It simply returned an integer that it was not supposed to return. So this is a different symptom.
+![Uploading Screenshot (39).png…]()
+
 
 
