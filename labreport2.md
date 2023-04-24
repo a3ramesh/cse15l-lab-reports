@@ -4,20 +4,6 @@ Part 1: Creating a Working Web Server
 The way this webserver works is that the user is supposed to type in an input string after the URL, and this string should be displayed on the page. Each time the user types in a new input string after the URL, that string should be displayed underneath the already displayed strings. Here is the code for this program:
 
 ```
-class Server {
-    public static void start(int port, URLHandler handler) throws IOException {
-        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-
-        //create request entrypoint
-        server.createContext("/", new ServerHttpHandler(handler));
-
-        //start the server
-        server.start();
-        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
-    }
-}
-
-
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
