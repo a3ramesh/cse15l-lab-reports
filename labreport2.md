@@ -151,4 +151,8 @@ Let's test the program again with this bug eliminated.
 ![Screenshot (41)](https://user-images.githubusercontent.com/130017333/233815654-fa83a172-a4e8-46a3-b077-799b8790b651.png)
 And sure enough, all of the tests pass with JUnit! I even included one more test just to be safe.
 
+Part 3: What I Learned in Lab
+
+Something that I learned from lab in Week 2 was how to write a program that could take in a URL as an input and then output something on an online web page. I learned the existence of the getQuery() and getPath() methods to access the query and path, respectively, of an input URL, and I learned the importance of the port of a URL to indicate the specific web server the program runs on.
+
 
