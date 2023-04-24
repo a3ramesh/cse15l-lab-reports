@@ -7,7 +7,6 @@ The way this webserver works is that the user is supposed to type in an input st
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    //int num = 0;
     String text = "";
 
     public String handleRequest(URI url) {
@@ -36,6 +35,43 @@ public class StringServer {
     }
 }
 ```
+
+And this program works when run on the web:
+![Screenshot (42)](https://user-images.githubusercontent.com/130017333/233879204-13ded621-fd59-48c8-aec5-cb673177d3cd.png)
+Notice I typed "apple" at the end of the URL after "s=" and the word "apple" was displayed on the page. I tried it again, but typed "banana" after "s=":
+![Screenshot (43)](https://user-images.githubusercontent.com/130017333/233879356-1d1767db-9740-44b0-9c4f-6a99f3e8625e.png)
+Notice here that both the words "apple" and "banana" are displayed. 
+
+Here is how the code works. Each time I type something into the URL and press enter, the main method in the StringServer class runs. If there *is* a URL in the bar, the method will go past the first if-statement and then go to where it says ```int port = Integer.parseInt(args[0])```. What this does is find the first integer in the URL, which will be the four-digit port number, convert that to an int, and then return that. The variable ```port``` is set equal to that ```int```. After this, what happens is the static method ```start``` within the ```Server``` class is called, with the first argument being the port number that was just found, and the second argument being a new Handler object. What the start method does essentially is start the activity of the server indicated by the given port number, and then link the new Handler object, which is of type URLHandler, to the information in this same server. This is how the methods within the Handler class, which we will get to, can access the information from this server. Here is the header and body of the ```start``` method within the ```Server``` class. 
+```
+public static void start(int port, URLHandler handler) throws IOException {
+        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+
+        //create request entrypoint
+        server.createContext("/", new ServerHttpHandler(handler));
+
+        //start the server
+        server.start();
+        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
+    }
+```
+We don't have to know all the details, but this is mainly to get an idea of the purpose of this method.
+Once the ```start``` method is called from the ```StringServer``` class, we go to the ```Handler``` class (due to the new ```Handler``` object being created). The first thing that happens in this class is the initialization of the ```text``` variable of type ```String```. It is initially empty. Then we go to the HandleRequest method. Here is the head and body of the HandleRequest method again:
+```
+public String handleRequest(URI url) {
+        if(url.getPath().equals("/add-message"))
+        {
+            String query = url.getQuery();
+            String input_text = query.substring(query.indexOf('=')+1);
+            text = text + "\n" + input_text;
+            System.out.println(text);
+        }
+
+        return text;
+    }
+```
+It takes in as an argument the URL of the current server. The first if-statement then reads the URL's path with the ```getPath()``` method and checks if it is equal to the ```String``` "/add-message". If this String is not the path of the URL, the if-statement body does not run, and the method simply returns the ```text``` String without changing it. But if this String is the path of the URL, then we use the getQuery() method to get the query of the URL. We set this equal to the variable query. Using the substring() method, we find the relevant text that was typed into the URL after the = sign, and set this equal to equal the variable input_text. The next line of code is important: it takes the current value of the text String and then asks it to skip a line, and then it adds the value of the input_text String, which contains the text from the user input after the = sign in the URL. Basicallly, the ```text``` variable changes everytime this body of the if-statement runs. But it is never changed completely; it is only appended to. This is important because it ensures the previous text that was typed  is displayed as well. And lastly, we print out the text variable with System.out.println(), which is what allows it to be displayed on the page, and the ```text``` variable is returned.
+
 
 
 Part 2: Debugging
