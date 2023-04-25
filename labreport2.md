@@ -1,4 +1,4 @@
-My name is Advait Ramesh, and this is a lab report for Week 4 of Spring 2023 CSE 15L with Joe Politz. This lab report has three parts: the first part is to create a working web server and describe its components; the second part is to showcase a buggy program and describe the steps to debugging it; and the last part is to simply list some things I've learned in the past two labs.
+My name is Advait Ramesh, and this is a lab report for Week 4 of Spring 2023 CSE 15L with Joe Politz. This lab report has three parts: the first part is to create a working web server and describe its components; the second part is to showcase a buggy program and describe the steps to debugging it; and the last part is to simply list something I've learned in the past two labs.
 
 Part 1: Creating a Working Web Server
 The way this webserver works is that the user is supposed to type in an input string after the URL, and this string should be displayed on the page. Each time the user types in a new input string after the URL, that string should be displayed underneath the already displayed strings. Here is the code for this program:
