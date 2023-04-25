@@ -155,6 +155,6 @@ And sure enough, all of the tests pass with JUnit! I even included one more test
 
 Part 3: What I Learned in Lab
 
-Something that I learned from lab in Week 2 was how to write a program that could take in a URL as an input and then output something on an online web page. I learned the existence of the getQuery() and getPath() methods to access the query and path, respectively, of an input URL, and I learned the importance of the port of a URL to indicate the specific web server the program runs on.
+Something that I learned from lab in Week 2 was how to write a program that could take in a URL as an input and then output something on an online web page. I learned the existence of the getQuery() and getPath() methods to access the query and path, respectively, of an input URL (and more importantly what the query and path of a URL even are and how to identify the parts of a URL), and I learned the importance of the port of a URL to indicate the specific web server the program runs on. I also learned about some interesting new classes and interfaces such as the URLHandler interface and the Server class.
 
 
