@@ -131,7 +131,7 @@ static int sumEvenIndices(int[] nums) {
     return sum;
   }
 ```
-Observe the for-loop header. It appears from this that the variable i will always be an even number; it starts at 0 and increases by 2 after each iteraion, so it can only be even. Now take a look at the for-loop body:
+Observe the for-loop header. It appears from this that the variable i will always be an even number; it starts at 0 and increases by 2 after each iteration, so it can only be even. Now take a look at the for-loop body:
 
 ```
 sum += nums[i + 1];
