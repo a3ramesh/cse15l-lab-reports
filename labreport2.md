@@ -137,7 +137,7 @@ Observe the for-loop header. It appears from this that the variable i will alway
 sum += nums[i + 1];
 ```
 
-If i is always even, then i+1 is always odd. What this means is that nums[i+1] is NOT accessing the even indices; it's actually accessing only the ODD indices. This is a major bug in the program because the program is not evenn adding the indices it is supposed to be, so it is bound to produce an incorrect output every time. The first way to fix this bug is by replacing i+1 with i; this will ensure that the nums array is accessing only its even indices rather than only its odd indices. Here's the updated method body:
+If i is always even, then i+1 is always odd. What this means is that nums[i+1] is NOT accessing the even indices; it's actually accessing only the ODD indices. This is a major bug in the program because the program is not even adding the indices it is supposed to be, so it is bound to produce an incorrect output every time. The first way to fix this bug is by replacing i+1 with i; this will ensure that the nums array is accessing only its even indices rather than only its odd indices. Here's the updated method body:
 
 ```
 static int sumEvenIndices(int[] nums) {
