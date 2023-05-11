@@ -115,7 +115,7 @@ Human Services; 1995. DHHS Publication No. (SMA) 95-3014.
 40. Soderstrom CA, Dailey JT, Kerns TJ. Alcohol and other
 drugs: an assessment of testing and clinical practices in U.S.
 ```
-Notice how it prints each line containing the query word "tissue" with two lines preceding it. 
+Notice how it prints each line containing the query word "drug" with two lines preceding it. 
 
 This is a useful function because it enables the user to get some within which their query word is used; this is a more efficient way to get the context behind each use of a certain word that does not involve printing out the entire text and scrolling to each use of that word. 
 
