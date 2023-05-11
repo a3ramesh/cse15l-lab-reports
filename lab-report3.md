@@ -119,6 +119,8 @@ Notice how it prints each line containing the query word "drug" with two lines p
 
 This is a useful function because it enables the user to get some context within which their query word is used; this is a more efficient way to get the context behind each use of a certain word that does not involve printing out the entire text and scrolling to each use of that word. 
 
+It is worth mentioning that for all four variants of the grep command that I chose, I found out about them on this website: https://www.geeksforgeeks.org/grep-command-in-unixlinux/.
+
 This concludes my lab report.
 
 
