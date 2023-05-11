@@ -117,7 +117,7 @@ drugs: an assessment of testing and clinical practices in U.S.
 ```
 Notice how it prints each line containing the query word "drug" with two lines preceding it. 
 
-This is a useful function because it enables the user to get some within which their query word is used; this is a more efficient way to get the context behind each use of a certain word that does not involve printing out the entire text and scrolling to each use of that word. 
+This is a useful function because it enables the user to get some context within which their query word is used; this is a more efficient way to get the context behind each use of a certain word that does not involve printing out the entire text and scrolling to each use of that word. 
 
 This concludes my lab report.
 
