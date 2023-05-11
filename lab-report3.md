@@ -7,7 +7,7 @@ The "grep" command can be used with "-c" in order to list the count of the lines
 [cs15lsp23sf@ieng6-202]:Alcohol_Problems:401$ grep -c "drug" Session3-PDF.txt 
 4
 ```
-In this case, it searched through the entire Session3-PDF.txt file looking for the word "drug." It only found 4 lines that contain the word "drug," so it printed out the number 4.
+In this case, it searched through the entire Session3-PDF.txt file looking for the word "drug." It only found 4 lines that contain the word "drug" (or any variants of the word "drug"), so it printed out the number 4.
 
 Here's another example:
 ```
