@@ -13,6 +13,22 @@ What it says is that the lab7 file already exists in my downloaded files. For th
 Note that I "typed" the git clone command again by using the up arrow a couple of times, since I had just recently typed it. And when I did so, the operation was successful. 
   
 Step 3: Running the tests and demonstrating that they fail
+First I change directories to the lab7 directory as follows:
+![Screenshot (57)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/e1dbd6e1-14f7-4f14-a757-1c8b75ae31bc)
+Now when I use the ls command, I can see the test.sh folder. This is what I will use to run my tests. The command to run the tests is ```bash test.sh```. When I run this, it should show that there is a failure:
+![Screenshot (58)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/d8982d1e-90fc-46e5-ab17-1c208c8eb7f2)
+And indeed, it shows that one of the tests has failed.
+
+Step 4: Editing the code file to fix the failing test
+To fix the test that failed, I need to enter the file that contains the code for the test. This file is the ListExamples.java file, shown in the ls command below:
+![Screenshot (59)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/ccfe84f7-fa15-4d51-8c0c-bcc5babc0cca)
+A good way to fix the code in this file is by going into vim mode. To do this, I simply type the command ```vim ListExamples.java```, and then the file will be in vim mode:
+![Screenshot (60)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3128805a-16e4-497a-93a1-34785c77b684)
+This is the result after typing ```vim ListExamples.java```. 
+
+
+
+
 
 
 
