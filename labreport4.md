@@ -11,6 +11,9 @@ In order to clone the directory, I simply type ```git clone https://github.com/u
 What it says is that the lab7 file already exists in my downloaded files. For the purposes of this assignment, I am going to remove this file so that I can start over again. The way to do this is with the ```rm -rf command```. After executing this command, I should be able to successfully clone a fork of this repository:
 ![Screenshot (56)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/581bb64f-7692-4cb2-a082-24b375f07800)
 Note that I "typed" the git clone command again by using the up arrow a couple of times, since I had just recently typed it. And when I did so, the operation was successful. 
+  
+Step 3: Running the tests and demonstrating that they fail
+
 
 
 
