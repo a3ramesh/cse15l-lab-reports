@@ -25,6 +25,33 @@ To fix the test that failed, I need to enter the file that contains the code for
 A good way to fix the code in this file is by going into vim mode. To do this, I simply type the command ```vim ListExamples.java```, and then the file will be in vim mode:
 ![Screenshot (60)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3128805a-16e4-497a-93a1-34785c77b684)
 This is the result after typing ```vim ListExamples.java```. 
+The error in this code is that in the last while loop, index1 is written when index2 should be written:
+![Screenshot (61)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/48eb3da9-57f8-49dd-b97e-3717c2a195f0)
+There's a way I can get to this line without using the cursor. If I type /index, this only focuses on the lines that have the word "index" in them. Then, I can use the <n> key to jump to each line with the word "index" in it. 
+![Screenshot (62)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/9b788cdf-42a9-4f44-a9d7-2ced5c814ee0)
+Notice that when I typed "/index" it highlighted the first appearance of the word "index" in the top line. Now I can press <n> about 16 times to navigate to the bottom line with the word "index", which is where the error is:
+![Screenshot (63)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/687bb386-3661-4e5a-9cb7-c3c04c335f21)
+Now I can scroll to the right until my cursor is on the number 1:
+![Screenshot (64)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/69188af3-efd6-4805-bfcf-f5c6066b882f)
+From this point, what I can do is press <r> and then 2. This will have successfully replaced the 1 with a 2 to make index2.
+![Screenshot (65)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/70eade64-50c3-4817-8ac4-631520b8015c)
+Now to run the tests again, I can save my progress and exit vim mode by pressing ```:wq!```:
+![Screenshot (66)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/ae445326-a81a-4684-ac38-e6c6ff9901f2)
+![Screenshot (67)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3f57d98f-09ae-4bcd-b7c1-35da7e7f43a5)
+Now I am out of vim mode.
+  
+Step 5: Running the tests again and demonstrating their success
+Now we should type ```bash test.sh``` once again and run it.
+![Screenshot (69)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/4f54c0b9-e570-4b13-943e-7a70acb55e98)
+As demonstrated, my tests have now passed.
+
+Step 6: Committing and Pushing the change back to my github account
+The way to do this is simply to type ```git push``` and then ```git commit``` successively:
+
+
+
+  
+
 
 
 
