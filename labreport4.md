@@ -46,7 +46,7 @@ Now we should type ```bash test.sh``` once again and run it.
 As demonstrated, my tests have now passed.
 
 Step 6: Committing and Pushing the change back to my github account
-The way to do this is simply to type ```git push``` and then ```git commit``` successively:
+The way to do this is simply to type ```git push``` and then ```git commit``` successively
 
 
 
