@@ -13,6 +13,7 @@ What it says is that the lab7 file already exists in my downloaded files. For th
 Note that I "typed" the git clone command again by using the up arrow a couple of times, since I had just recently typed it. And when I did so, the operation was successful. 
   
 Step 3: Running the tests and demonstrating that they fail
+
 First I change directories to the lab7 directory as follows:
 ![Screenshot (57)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/e1dbd6e1-14f7-4f14-a757-1c8b75ae31bc)
 Now when I use the ls command, I can see the test.sh folder. This is what I will use to run my tests. The command to run the tests is ```bash test.sh```. When I run this, it should show that there is a failure:
