@@ -42,8 +42,10 @@ TA: Yes, that's absolutely correct! But how do you fix this so that this doesn't
 
 Student: Well, one thing I could try is instead of iterating through the array from the beginning forwards, I could iterate from the end backwards.
 And when I did this, the method passed with the bash script!
-![Screenshot (81)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3d0e1ab2-d112-45b0-8b26-3f8d138d39fa)
 ![Screenshot (82)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/42191c39-f0fa-49c9-941a-4728d53e26eb)
+![Screenshot (81)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3d0e1ab2-d112-45b0-8b26-3f8d138d39fa)
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 This scenario is a good example of how to know which file your code is problematic, and how to use some modification tactics to your code to pinpoint the error. 
 
