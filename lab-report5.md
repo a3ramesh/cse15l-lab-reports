@@ -32,7 +32,7 @@ TA: Okay. So now you want to find out the cause of the symptom. Go to the Sample
 
 Student: Okay, I did what you said, and the way I decided to do it is print out the value at each index with System.out.println() both before and after each iteration of the for loop (as well as once before the for loop begins). Here was the result using the original input 1 2 3 4 9:
 ![Screenshot (80)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/9c624c35-b760-4ccb-9e6a-bb541aa88251)
-What I take away from this is that, before each iteration is simply each of the command line arguments, but after each iteration is 1. Every time. arr[1] is 2 at first then becomes 1, arr[2] is 3 at first and then becomes 1, arr[3] is 4 at first and then becomes 1, etc. Each element is actively being set to 1. And then operation that is doing that must be ```arr[i]=arr[i-1]```, which means that arr[i-1] is always equal to 1. But I'm not sure why though.
+What I take away from this is that, before each iteration is simply each of the command line arguments, but after each iteration is 1. Every time. arr[1] is 2 at first then becomes 1, arr[2] is 3 at first and then becomes 1, arr[3] is 4 at first and then becomes 1, etc. Each element is actively being set to 1. And the operation that's doing that must be ```arr[i]=arr[i-1]```, which means that arr[i-1] is always equal to 1. But I'm not sure why though.
 
 TA: You're on the right track. In your code, arr[i-1] is always equal to 1. What is the starting value of arr[i-1]? 
 
