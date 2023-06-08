@@ -38,7 +38,7 @@ The error in this code is that in the last ```while``` loop, ```index1``` is wri
 ![Screenshot (61)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/48eb3da9-57f8-49dd-b97e-3717c2a195f0)
 There's a way I can get to this line without using the cursor. If I type ```/index <enter>```, this only focuses on the lines that have the word "index" in them. Then, I can use the ```n``` key to jump to each line with the word "index" in it. 
 ![Screenshot (62)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/9b788cdf-42a9-4f44-a9d7-2ced5c814ee0)
-Notice that when I typed "/index" it highlighted the first appearance of the word "index" in the top line. Now I can press ```n``` about 16 times to navigate to the bottom line with the word "index", which is where the error is:
+Notice that when I typed ```/index <enter>``` it highlighted the first appearance of the word "index" in the top line. Now I can press ```n``` about 16 times to navigate to the bottom line with the word "index", which is where the error is:
 ![Screenshot (63)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/687bb386-3661-4e5a-9cb7-c3c04c335f21)
 Now I can scroll to the right until my cursor is on the number 1:
 ![Screenshot (64)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/69188af3-efd6-4805-bfcf-f5c6066b882f)
