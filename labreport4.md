@@ -21,7 +21,9 @@ Step 6: Run the tests, demonstrating that they fail
 
 First I change directories to the lab7 directory by typing ```cd lab7 <enter>```:
 ![Screenshot (57)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/e1dbd6e1-14f7-4f14-a757-1c8b75ae31bc)
-Now when I use the ls command, I can see that the test.sh file is inside of the lab7 directory. This file is what I will use to run my tests. The command to run the tests is ```bash test.sh```. When I run this, it should show that there is a failure:
+Now when I use the ```ls``` command, I can see that the test.sh file is inside of the lab7 directory. 
+![image](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/dafec6a5-4a5e-4ddc-a376-460849fca779)
+This file is what I will use to run my tests. The command to run the tests is ```bash test.sh <enter>```. When I run this, it should show that there is a failure:
 ![Screenshot (58)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/d8982d1e-90fc-46e5-ab17-1c208c8eb7f2)
 And indeed, it shows that one of the tests has failed.
 
