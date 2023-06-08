@@ -34,7 +34,7 @@ Step 7: Edit the code file to fix the failing test
 A good way to fix the code in this file is by going into vim mode. To do this, I simply type the command ```vim ListExamples.java <enter>```, and then the file will be in vim mode:
 ![Screenshot (60)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3128805a-16e4-497a-93a1-34785c77b684)
 This is the result after typing ```vim ListExamples.java <enter>```. 
-The error in this code is that in the last while loop, index1 is written when index2 should be written:
+The error in this code is that in the last ```while``` loop, ```index1``` is written when ```index2``` should be written:
 ![Screenshot (61)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/48eb3da9-57f8-49dd-b97e-3717c2a195f0)
 There's a way I can get to this line without using the cursor. If I type ```/index <enter>```, this only focuses on the lines that have the word "index" in them. Then, I can use the ```n``` key to jump to each line with the word "index" in it. 
 ![Screenshot (62)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/9b788cdf-42a9-4f44-a9d7-2ced5c814ee0)
