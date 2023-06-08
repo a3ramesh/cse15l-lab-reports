@@ -58,7 +58,7 @@ As demonstrated, my tests have now passed.
 Step 9: Commit and push the resulting change to your Github account
   
   
-The way to do this is simply to type ```git add . <enter>```, then ```git commit -m <message> <enter>```, and lastly ```git push```.
+The way to do this is simply to type ```git add . <enter>```, then ```git commit -m <message> <enter>```, and lastly ```git push <enter>```.
 ![image](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/8276f994-d6a8-4be6-932c-8250e6274bcd)
 
 This concludes the lab report.
