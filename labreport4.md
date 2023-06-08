@@ -40,7 +40,7 @@ There's a way I can get to this line without using the cursor. If I type ```/ind
 ![Screenshot (62)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/9b788cdf-42a9-4f44-a9d7-2ced5c814ee0)
 Notice that when I typed ```/index <enter>``` it highlighted the first appearance of the word "index" in the top line. Now I can press ```n``` about 16 times to navigate to the bottom line with the word "index", which is where the error is:
 ![Screenshot (63)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/687bb386-3661-4e5a-9cb7-c3c04c335f21)
-Now I can scroll to the right until my cursor is on the number 1:
+Now I can press the right arrow button to scroll to the right until my cursor is on the number 1:
 ![Screenshot (64)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/69188af3-efd6-4805-bfcf-f5c6066b882f)
 From this point, what I can do is press ```r``` and then 2. This will have successfully replaced the 1 with a 2 to make index2.
 ![Screenshot (65)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/70eade64-50c3-4817-8ac4-631520b8015c)
