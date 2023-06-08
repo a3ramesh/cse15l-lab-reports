@@ -13,7 +13,7 @@ In order to clone a fork of the repository, I simply type ```git clone https://g
 What it says is that the lab7 directory already exists in my downloaded directories. For the purposes of this assignment, I am going to remove this directory so that I can start over again. The way to do this is with the ```rm -rf``` command. After typing ```rm -rf lab7 <enter>```, I will successfully remove the lab7 directory.
 ![image](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/15bb5033-7223-4788-ad8c-d365db566e29)
 As you can see, after I typed ```rm -rf lab7 <enter>```and typed ``ls <enter>`` to view the subdirectories in the current working directory, lab7 is no longer there. So the directory was successfully removed. 
-Now I can type ```git clone https://github.com/ucsd-cse15l-s23/lab7``` again to clone the repository.
+Now I can type ```git clone https://github.com/ucsd-cse15l-s23/lab7 <enter>``` again to clone the repository.
 ![Screenshot (56)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/581bb64f-7692-4cb2-a082-24b375f07800)
 Note that I "typed" the git clone command again by using the up arrow a couple of times, since I had just recently typed it. And when I did so, the operation was successful. 
   
