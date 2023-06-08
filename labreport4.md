@@ -29,7 +29,7 @@ And indeed, it shows that one of the tests has failed.
 
 Step 7: Edit the code file to fix the failing test
 
-  To fix the test that failed, I need to enter the file that contains the code for the test. This file is the ListExamples.java file, shown in the ls command below:
+  To fix the test that failed, I need to go inside the file that contains the code for the test. This file is the ListExamples.java file, shown in the ```ls``` command below:
 ![Screenshot (59)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/ccfe84f7-fa15-4d51-8c0c-bcc5babc0cca)
 A good way to fix the code in this file is by going into vim mode. To do this, I simply type the command ```vim ListExamples.java <enter>```, and then the file will be in vim mode:
 ![Screenshot (60)](https://github.com/a3ramesh/cse15l-lab-reports/assets/130017333/3128805a-16e4-497a-93a1-34785c77b684)
